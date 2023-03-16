@@ -2,13 +2,13 @@ JUCE Music Player
 JUCE Music Player is a cross-platform desktop application for playing and managing your music collection. The application is built using the JUCE C++ framework and provides an intuitive and modern user interface. Easily browse your music library, create and manage playlists, and control playback options.
 
 *Features*
-=Cross-platform support for Windows, macOS, and Linux
-=Intuitive and modern user interface
-=Browse and search your music library
-=Play music files in various formats, such as MP3, WAV, and FLAC
-=Create, edit, and manage playlists
-=Control playback options, including shuffle and repeat
-=Drag-and-drop support for adding files and folders to the library
+Cross-platform support for Windows, macOS, and Linux
+Intuitive and modern user interface
+Browse and search your music library
+Play music files in various formats, such as MP3, WAV, and FLAC
+Create, edit, and manage playlists
+Control playback options, including shuffle and repeat
+Drag-and-drop support for adding files and folders to the library
 
 
 *Dependencies*
