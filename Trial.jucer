@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="o0Rr2j" name="Trial" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="CwV8pj" name="Trial">
+    <GROUP id="{1935E752-9490-B4AF-30AF-F107704E9111}" name="Source">
+      <FILE id="yDySBn" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="zpr5By" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="Xgpixb" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="iP6Sp6" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="FQxzDn" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="TKJr8I" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="YTnLzg" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="ROci3i" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="WsQjIz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="B0Pk8y" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="yplHiM" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Trial"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Trial" headerPath="&quot;C:\Users\rami0\OneDrive\Escritorio\libKeyFinder-2.2.2&quot;"
+                       libraryPath="C:\Users\rami0\Downloads\fftw-3.3.5-dll64.zip\libfftw3-3.dll"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
